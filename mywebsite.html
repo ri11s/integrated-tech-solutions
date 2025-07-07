@@ -1,0 +1,111 @@
+
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>services</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: MistyRose;
+      text-align: center;
+      padding-top: 50px;
+      margin: 0;
+      min-height: 100vh;
+    }
+
+    h1 {
+      color: #5F9EA0;
+      font-size: 2.5em;
+      margin-bottom: 30px;
+      text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+    }
+
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .product {
+      background-color: white;
+      border-radius: 10px;
+      padding: 20px;
+      width: 250px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      transition: all 0.3s;
+    }
+
+    .product:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+
+    .product h3 {
+      color: #5F9EA0;
+      margin-top: 0;
+    }
+
+    .btn {
+      padding: 10px 20px;
+      background-color: #87CEEB;
+      color: white;
+      border: none;
+      border-radius: 25px;
+      cursor: pointer;
+      margin-top: 15px;
+      transition: all 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #4682B4;
+    }
+
+    .back-btn {
+      display: inline-block;
+      margin-top: 40px;
+      padding: 10px 25px;
+      background-color: #87CEEB;
+      color: white;
+      text-decoration: none;
+      border-radius: 25px;
+      transition: all 0.3s;
+    }
+
+    .back-btn:hover {
+      background-color: #4682B4;
+    }
+  </style>
+</head>
+<body>
+  <h1>خدماتنا</h1>
+    <p class="description">مجموعة متكاملة من الحلول الرقمية المخصصة لنجاح عملك</p>
+  
+  <div class="products">
+    <div class="product">
+      <h3>تطوير المواقع</h3>
+      <p>تصميم مواقع احترافية سريعة الاستجابة ومناسبة لجميع الأجهزة.</p>
+  <button class="btn" onclick="alert('تطوير المواقع')">اضغط هنا</button>
+    </div>
+    
+    <div class="product">
+      <h3>تطبيقات الجوال</h3>
+      <p>برمجة تطبيقات أندرويد و iOS مخصصة لأهدافك التجارية.</p>
+     <button class="btn" onclick="alert('تطبيقات الجوال')">اضغط هنا </button>
+    </div>
+    
+    <div class="product">
+      <h3>التحول الرقمي</h3>
+      <p>نساعدك في تحويل عملك إلى نظام رقمي فعّال وآمن.</p>
+       <button class="btn" onclick="alert('التحول الرقمي')">اضغط هنا</button>
+    </div>
+  </div>
+  
+  <a href="index.html" class="back-btn">العودة للصفحة الرئيسية</a>
+</body>
+</html>
